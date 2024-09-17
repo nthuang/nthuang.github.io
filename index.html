@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nathan's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/bc1edaeba2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <!--<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+  </head>
+
+  <!--header-->
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <!--<img src="images/me.jpg" class="" alt="">-->
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <!--<li><a href="#experience">Experience</a></li>-->
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-times"></i>
+          </ul>
+          <i class="fa-solid fa-bars"></i>
+        </nav>
+        <div id="header-text">
+          <h1>Yo, I'm Nathan <br />Tran Huang</h1>
+        </div>
+        <div id="header-img">
+          <img src="images/me.jpg" id="hero" alt="Photo of Nathan Tran Huang" />
+        </div>
+      </div>
+    </div>
+
+    <!--about-->
+    <div id="about">
+      <div id="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="images/me2.jpg"
+              id="me"
+              alt="Photo of Nathan Tran Huang"
+            />
+            <img
+              src="images/resume.jpg"
+              id="resumepdf"
+              alt="Image of Nathan's Resume"
+              class="hidden"
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              Hi, I'm Nathan Tran Huang. I'm currently a second year computer
+              science student at Cal Poly looking for an opportunity to gain
+              hands-on experience to further develop my skills in computer
+              science through an internship or research. Some of my interests
+              are badminton, brazilian jiu jitsu, muay thai, and video games.
+            </p>
+
+            <p></p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('resume')">Resume</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Programming Languages</span><br /></li>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+                  style="width: 50px; height: 50px"
+                  alt="Python Logo"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+                  style="width: 50px; height: 50px"
+                  alt="Java Logo"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg"
+                  style="width: 50px; height: 50px"
+                  alt="C Logo"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                  style="width: 50px; height: 50px"
+                  alt="JavaScript Logo"
+                />
+                <li><span>Technologies</span><br /></li>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                  style="width: 50px; height: 50px"
+                  alt="HTML Logo"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                  style="width: 50px; height: 50px"
+                  alt="CSS Logo"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+                  style="width: 50px; height: 50px"
+                  alt="react Logo"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+                  style="width: 50px; height: 50px"
+                  alt="nodejs Logo"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+                  style="width: 50px; height: 50px"
+                  alt="express Logo"
+                />
+                <li><span>Other</span><br /></li>
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mocha/mocha-original.svg"
+                  style="width: 50px; height: 50px"
+                  alt="mocha Logo"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+                  style="width: 50px; height: 50px"
+                  alt="Git Logo"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
+                  style="width: 50px; height: 50px"
+                  alt="Linux Logo"
+                />
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <p>
+                Bachelors of Science Computer Science<br />
+                California Polytechnic State University
+              </p>
+              <ul>
+                <li><span>CSC349</span><br />Design & Analysis of Algorithm</li>
+                <li><span>CPE357</span><br />Systems Programming</li>
+                <li><span>CSC248</span><br />Discrete Structures</li>
+                <li>
+                  <span>CPE225</span><br />Introduction to Computer Organization
+                </li>
+                <li>
+                  <span>CSC203</span><br />Project-Based Object-Oriented
+                  Programming and Design
+                </li>
+                <li><span>CSC202</span><br />Data Structures</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="resume">
+              <a href="Nathan Huang Resume.pdf" download class="download-btn"
+                >Download Resume</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--projects-->
+    <div id="projects">
+      <div class="container">
+        <h1 class="subtitle">Projects</h1>
+
+        <div class="project">
+          <div class="project-description">
+            <h2>Spotlist<br /><br /></h2>
+            <h3>Overview</h3>
+            <p>
+              Spotlist is a frontend web application that allows users to search
+              for music tracks, create playlists, and save them on their Spotify
+              account. The app integrates with Spotify Web API <br />
+              <br />
+            </p>
+            <h3>Technologies Used</h3>
+            <p>React, JavaScript, Spotify Web API, CSS <br /><br /></p>
+            <a href="" target="_blank">View Code</a>
+            <a href="" target="_blank">Live Demo</a>
+          </div>
+
+          <img
+            src="./images/spotlist.png"
+            alt="Spotlist img"
+            class="project-image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!--expereince
+    <div id="experience">
+      <div class="container">
+        <h1 class="subtitle">Experience</h1>
+        <div class="experience">
+          <h2>Math Tutor at Mathnasium</h2>
+          <p>tutored kids k-12 in math</p>
+        </div>
+      </div>
+    </div>-->
+
+    <!--contact-->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i> nathanhuang34@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> (650)667-9773</p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/nthuang007/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/nathan-huang-82010a277"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/nthuang"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Name" required />
+              <input type="text" name="Email" placeholder="Email" required />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Message"
+              ></textarea>
+              <button type="submit" class="submit-btn">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer><!--addsomething-->></footer>
+
+    <!--about me tabs-->
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      var meImg = document.getElementById("me");
+      var resumeImg = document.getElementById("resumepdf");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+        if (tabname === "resume") {
+          meImg.classList.add("hidden");
+          resumeImg.classList.remove("hidden");
+        } else {
+          meImg.classList.remove("hidden");
+          resumeImg.classList.add("hidden");
+        }
+      }
+    </script>
+
+    <!--Contact form to google sheets-->
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbw6ZANhpbWlxnYluLSCKcgJxkkyFp5P-1PxYLj9IMkymOcMQiFAu5_gg32VURL3yjh4/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML =
+              "Thank You for reaching out! I'll get back to you as soon as possible.";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
