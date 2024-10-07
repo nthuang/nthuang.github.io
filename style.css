@@ -221,9 +221,52 @@ nav ul li a:hover::after {
   line-height: 1;
 }
 
-/*experience*/
-#experience {
+/* Experience */
+#experiences {
   padding: 50px 0;
+  color: lightgrey;
+}
+
+.experience {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.experience-description {
+  width: 100%;
+  margin-right: 20px;
+  font-size: 20px;
+  line-height: 1; /* Changed to 1.5 for better readability */
+}
+
+.experience-description h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.experience-description h3 {
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.experience-description p {
+  margin-bottom: 10px;
+}
+
+.experience-description ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.experience-description li {
+  margin-bottom: 10px;
 }
 
 /*contact*/

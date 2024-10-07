@@ -27,7 +27,7 @@
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About Me</a></li>
             <li><a href="#projects">Projects</a></li>
-            <!--<li><a href="#experience">Experience</a></li>-->
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#contact">Contact</a></li>
             <i class="fa-solid fa-times"></i>
           </ul>
@@ -53,7 +53,7 @@
               alt="Photo of Nathan Tran Huang"
             />
             <img
-              src="images/resume.jpg"
+              src="images/resume.png"
               id="resumepdf"
               alt="Image of Nathan's Resume"
               class="hidden"
@@ -179,6 +179,41 @@
       <div class="container">
         <h1 class="subtitle">Projects</h1>
 
+        <!--FitForge-->
+        <div class="project">
+          <div class="project-description">
+            <h2>FitForge<br /><br /></h2>
+            <h3>Overview</h3>
+            <p>
+              The Workout Planner is a full-stack web application designed to
+              help users manage and optimize their fitness routines. Users are
+              able to search through a library of 1300+ exercises including body
+              parts used, equipment needed, and muscles targeted. With the
+              exercises, they are able to create their own workouts and plan
+              their own splits.<br />
+              <br />
+            </p>
+            <h3>Technologies Used</h3>
+            <p>
+              React, Node.js, Express, MongoDB, Axios, ExcerciseDB API,
+              JavaScript, CSS, <br /><br />
+            </p>
+            <a href="https://github.com/nthuang/FitForge" target="_blank"
+              >View Code</a
+            >
+            <a href="https://nthuang.github.io/FitForge/" target="_blank"
+              >Live Demo</a
+            >
+          </div>
+
+          <img
+            src="./images/fitforge.png"
+            alt="FitForge img"
+            class="project-image"
+          />
+        </div>
+
+        <!--Spotlist-->
         <div class="project">
           <div class="project-description">
             <h2>Spotlist<br /><br /></h2>
@@ -193,8 +228,12 @@
             <p>
               React, JavaScript, Spotify Web API, CSS, OAuth 2.0 <br /><br />
             </p>
-            <a href="https://github.com/nthuang/Spotlist" target="_blank">View Code</a>
-            <a href="nthuang.github.io/Spotlist/" target="_blank">Live Demo</a>
+            <a href="https://github.com/nthuang/Spotlist" target="_blank"
+              >View Code</a
+            >
+            <a href="https://nthuang.github.io/Spotlist/" target="_blank"
+              >Live Demo</a
+            >
           </div>
 
           <img
@@ -206,16 +245,136 @@
       </div>
     </div>
 
-    <!--expereince
-    <div id="experience">
+    <!--experience-->
+    <div id="experiences">
       <div class="container">
         <h1 class="subtitle">Experience</h1>
+
+        <!--Cal Poly Robotics-->
         <div class="experience">
-          <h2>Math Tutor at Mathnasium</h2>
-          <p>tutored kids k-12 in math</p>
+          <div class="experience-description">
+            <h2>Software Engineer</h2>
+            <p>
+              <strong>Cal Poly Robotics</strong> | September 2024 – Present
+              <br /><br />
+            </p>
+            <h3>Overview</h3>
+            <p>
+              As a member of the software engineering team working for the UROV
+              team of Cal Poly Robotics, I am dedicated to developing and
+              implementing an integrated workflow that leverages OctoMap, SLAM,
+              A*, and DWA for the 2025 MATE ROV Competition.<br /><br />
+            </p>
+            <h3>Key Responsibilities:</h3>
+            <ul>
+              <li>
+                <strong>OctoMap and SLAM Implementation:</strong> Developing a
+                system that uses sensor data to build and update a 3D occupancy
+                grid, enabling the UROV to accurately localize and navigate
+                underwater environments.
+              </li>
+              <li>
+                <strong>Pathfinding with A*:</strong> Implementing the A*
+                algorithm to determine the safest and most efficient routes for
+                the UROV, leveraging the 3D map generated from OctoMap.
+              </li>
+              <li>
+                <strong>Dynamic Window Approach (DWA):</strong> Utilizing DWA to
+                facilitate real-time adjustments in the UROV's path, ensuring
+                safe navigation around newly detected obstacles.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!--Cal Poly Racing-->
+        <div class="experience">
+          <div class="experience-description">
+            <h2>Firmware Engineer</h2>
+            <p>
+              <strong>Cal Poly Racing (Formula SAE)</strong> | September 2024 –
+              Present <br /><br />
+            </p>
+            <h3>Overview</h3>
+            <p>
+              As a member of the Cal Poly Racing team, I contribute to the
+              Electronics & Firmware Subteam, focusing on enhancing the firmware
+              systems of our electric car. Currently, I am participating in an
+              onboarding project aimed at familiarizing new members with
+              essential skills and practices through hands-on experience. I am
+              actively engaged in the aerocan refactoring project, which
+              involves optimizing the firmware architecture for better
+              performance and reliability. <br /><br />
+            </p>
+            <h3>Key Responsibilities:</h3>
+            <ul>
+              <li>
+                Collaborate with experienced team members to learn and implement
+                best practices in firmware development.
+              </li>
+              <li>
+                Refactor existing firmware code for the aerocan, enhancing
+                efficiency and maintaining code quality.
+              </li>
+              <li>
+                Participate in team meetings to discuss project progress and
+                share insights.
+              </li>
+              <li>
+                Contribute to documentation of the firmware systems for future
+                reference and onboarding.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!--Math Tutor-->
+        <div class="experience">
+          <div class="experience-description">
+            <h2>Math Tutor</h2>
+            <p>
+              <strong>Mathnasium Learning Center</strong> | September 2022 – May
+              2023 <br /><br />
+            </p>
+            <h3>Overview</h3>
+            <p>
+              As a Math Tutor at Mathnasium, I provide individualized
+              instruction to small groups of students, helping them to build
+              confidence and improve their math skills through tailored learning
+              plans.<br /><br />
+            </p>
+            <h3>Key Responsibilities:</h3>
+            <ul>
+              <li>
+                Provided individualized math instruction to groups of 1-4
+                students using the Mathnasium Method
+              </li>
+              <li>
+                Assessed student strengths and areas for improvement through
+                comprehensive evaluations, creating customized learning plans
+              </li>
+              <li>
+                Managed student flow as shift lead, directing students to tutors
+                based on their needs and tutor availability
+              </li>
+              <li>
+                Evaluated and graded student assignments and homework, tracking
+                progress toward learning goals
+              </li>
+              <li>
+                Collaborated with other tutors to create a positive and
+                effective learning environment
+              </li>
+              <li>
+                Supported center operations through non-teaching tasks and
+                ensured the learning environment remained professional and
+                organized
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>-->
+    </div>
 
     <!--contact-->
     <div id="contact">
